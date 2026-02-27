@@ -1,0 +1,16 @@
+mysql_schedule:
+  master: "root:password@tcp(127.0.0.1:3306)/scheduler_local?charset=utf8&parseTime=true&loc=UTC"
+  slave: "root:password@tcp(127.0.0.1:3306)/scheduler_local?charset=utf8&parseTime=true&loc=UTC"
+  log_level: 4
+  log_path: "./logs/mysql_schedule.log"
+
+server:
+  port: "8080"
+log:
+  level: 0
+  path: "./logs/error.log"
+interval:
+  load: 10
+  exec: 1
+  retry: 5
+env: local

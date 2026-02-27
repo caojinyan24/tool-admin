@@ -1,0 +1,77 @@
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 表格样式增强 */
+.el-table {
+  margin-top: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.el-table th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+/* 表单样式增强 */
+.el-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.el-form-item {
+  margin-bottom: 20px;
+}
+
+/* 按钮组样式 */
+.action-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* 搜索框样式 */
+.search-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 加载状态样式 */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* 空状态样式 */
+.empty-container {
+  text-align: center;
+  padding: 40px;
+  color: #909399;
+}
+
+/* 分页样式 */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

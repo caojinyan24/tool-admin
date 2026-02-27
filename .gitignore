@@ -1,0 +1,10 @@
+**/logs
+**/**.out
+admin/dist
+.DS_Store
+**/**.log
+node_modules
+.trae
+.doc
+server/server
+temp
